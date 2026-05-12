@@ -6,8 +6,22 @@
 }
 
 
-body {
-background-image: url('assests/fundo_pagina.jpg');
+.index {
+background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltd6fa384b60ff3fbd/64cc2fe367e57a3aa2cec653/Jupiter_Coming_Soon-Bnet_Game-Content_UI_(Phoenix)-EN-1920x1080_textless.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.segunda_imagem2 {
+background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt9bdfb69d595cbdc3/682fa7092da99c1977a85c6b/-Bnet_Game-Content_UI_(Phoenix)-EN-1920x1080-Textless_(9).jpg?imwidth=1920&imdensity=2.625");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.terceira_imagem3 {
+background-image: url("https://t2.tudocdn.net/536260?w=1920");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -15,24 +29,29 @@ background-attachment: fixed;
 }
 
 h1{
-    text-align: center; 
+    text-align: center;
     color: gold;
     margin: 15px 0;
 }
 
 p{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 252, 252);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 a{
 display: block;
 text-align: center;
-color: rgb(255, 5, 5);
+color: rgb(255, 255, 255);
 text-decoration: none;
 border-radius: 10px;
 cursor: pointer;
 
+}
+h2{
+    text-align: center;
+    color: rgb(218, 4, 4);
+    margin: 15px 0;
 }
 
 button{
@@ -41,5 +60,25 @@ button{
     border-radius: 10px;
     cursor: pointer;
     margin: 10px auto;
-    background-color: brown;
+    background-color: rgb(0, 0, 0);
+}
+p2{
+    text-align: center;
+    color: rgb(241, 241, 241);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h3{
+text-align: center;
+    color: rgb(255, 0, 0);
+    margin: 15px 0;
+
+}
+button{
+    display: block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    background-color: rgb(0, 0, 0);
 }
